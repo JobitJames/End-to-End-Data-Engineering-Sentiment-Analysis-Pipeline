@@ -32,6 +32,9 @@ All data is anonymized and does not contain any demographic or personally identi
 | **Visualization** | Looker Studio                   |
 | **NLP**         | TextBlob (for sentiment analysis) |
 
+#### Data Pipeline Architecture
+<img src="images/architecture.jpg" width="1500">
+
 🗂️ Architecture Diagram
 
 <img src="images/6674bdb3-19bd-4685-8c24-a1a5342c7cf7.svg" alt="Mermaid Chart" width="300">
