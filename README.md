@@ -1,4 +1,10 @@
 # MovieLens 32M - End-to-End Data Engineering & Sentiment Analysis Pipeline
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-Storage-blue?logo=googlecloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-SQL-blue?logo=googlebigquery&logoColor=white)
+![Looker Studio](https://img.shields.io/badge/Looker%20Studio-Dashboard-0A66C2?logo=googleanalytics&logoColor=white)
+![TextBlob](https://img.shields.io/badge/TextBlob-NLP-brightgreen?logo=python&logoColor=white)
 
 📌 Project Overview
 
