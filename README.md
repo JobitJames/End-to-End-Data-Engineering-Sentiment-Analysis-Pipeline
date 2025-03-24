@@ -33,7 +33,7 @@ All data is anonymized and does not contain any demographic or personally identi
 | **NLP**         | TextBlob (for sentiment analysis) |
 
 #### Data Pipeline Architecture
-<img src="images/architecture.jpg" width="1500">
+<img src="images/architecture_s.jpg" width="1500">
 
 🗂️ Architecture Diagram
 
