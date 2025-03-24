@@ -1,0 +1,10 @@
+CREATE OR REPLACE TABLE movielens_clean.date_dim AS
+SELECT
+  DISTINCT
+  TIMESTAMP_SECONDS(CAST(timestamp AS INT64)) AS review_datetime,
+  FORMAT_TIMESTAMP('%Y-%m-%d', TIMESTAMP_SECONDS(CAST(timestamp AS INT64))) AS full_date,
+  EXTRACT(YEAR FROM TIMESTAMP_SECONDS(CAST(timestamp AS INT64))) AS year,
+  EXTRACT(MONTH FROM TIMESTAMP_SECONDS(CAST(timestamp AS INT64))) AS month,
+  EXTRACT(DAY FROM TIMESTAMP_SECONDS(CAST(timestamp AS INT64))) AS day
+FROM
+  movielens_raw.ratings;

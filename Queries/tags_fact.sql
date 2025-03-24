@@ -1,0 +1,1 @@
+SELECT  FROM `movielens-32m.movielens_raw.tags` LIMIT 1000
