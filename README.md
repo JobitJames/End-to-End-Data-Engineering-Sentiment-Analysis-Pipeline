@@ -6,4 +6,34 @@ This project is a complete, cloud-based data engineering pipeline built using th
 
 Alongside standard rating analytics, this project also includes sentiment analysis on user-generated movie tags, pushing the pipeline into NLP territory.
 
+📦 Dataset Summary
+
+Source: MovieLens 32M
+| Feature        | Details               |
+|----------------|-----------------------|
+| **Users**      | 200,948               |
+| **Movies**     | 87,585                |
+| **Ratings**    | 32,000,204            |
+| **Tags**       | 2,000,072             |
+| **Time Period**| Jan 9, 1995 – Oct 12, 2023 |
+| **Files Used** | ratings.csv, movies.csv, tags.csv |
+
+All data is anonymized and does not contain any demographic or personally identifiable information.
+---
+
+🧱 Tech Stack
+
+| Layer           | Tools / Technologies              |
+|-----------------|-----------------------------------|
+| **Data Storage**| Google Cloud Storage (GCS)        |
+| **Data Warehouse** | Google BigQuery                |
+| **Processing**  | SQL, Python, BigQuery Notebooks   |
+| **Visualization** | Looker Studio                   |
+| **NLP**         | TextBlob (for sentiment analysis) |
+
+🗂️ Architecture Diagram
+[View Mermaid Chart](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:YOUR_ENCODED_CHART_HERE)
+
+
+![Mermaid Chart](https://www.mermaidchart.com/raw/6674bdb3-19bd-4685-8c24-a1a5342c7cf7?theme=light&version=v0.1&format=svg)
 
