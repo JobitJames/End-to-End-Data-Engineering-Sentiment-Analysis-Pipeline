@@ -8,7 +8,8 @@ Alongside standard rating analytics, this project also includes sentiment analys
 
 📦 Dataset Summary
 
-Source: MovieLens 32M
+Source: [MovieLens 32M](https://grouplens.org/datasets/movielens/)
+
 | Feature        | Details               |
 |----------------|-----------------------|
 | **Users**      | 200,948               |
@@ -32,8 +33,7 @@ All data is anonymized and does not contain any demographic or personally identi
 | **NLP**         | TextBlob (for sentiment analysis) |
 
 🗂️ Architecture Diagram
-[View Mermaid Chart](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:YOUR_ENCODED_CHART_HERE)
 
+<img src="images/6674bdb3-19bd-4685-8c24-a1a5342c7cf7.svg" alt="Mermaid Chart" width="300">
 
-![Mermaid Chart](https://www.mermaidchart.com/raw/6674bdb3-19bd-4685-8c24-a1a5342c7cf7?theme=light&version=v0.1&format=svg)
 
